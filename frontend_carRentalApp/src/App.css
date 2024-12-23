@@ -1,0 +1,133 @@
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+.navbar {
+    background-color: #f8f9fa; /* Light background color */
+    /* You can adjust this color as needed */
+}
+.filtersContainer{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+/* PaginationComponent.css */
+.pagination-container {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 20px; /* Space above pagination */
+    width: 100%; /* Ensure it takes the full width */
+}
+
+
+.vehicles-container {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    align-items: center;
+    width:100%;
+    max-width: 1200px;
+    margin:20px auto;
+    /*padding: 20px;*/
+}
+
+/*.vehicles-grid {*/
+/*    display: grid;*/
+/*    !*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*!*/
+/*    gap: 20px;*/
+/*    width: 100%;*/
+/*}*/
+
+
+.trip-item {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* Optional: Add border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    background-color: #f8f9fa; /* Optional: Background color */
+    margin: 5px; /* Optional: Spacing between items */
+}
+
+
+
+
+
+.full-screen-card {
+    width: calc(80%); /* Adjust width as needed */
+    height: calc(40vh - 70px); /* Full viewport height minus navbar height */
+    margin: 20px auto; /* Center horizontally and add top/bottom margin */
+    overflow: hidden; /* Prevents overflow of card */
+    display: flex; /* Use flex to structure card elements */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+}
+
+.card {
+    height: 100%; /* Make the card fill the height of the container */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.card-image {
+    max-width: 100%; /* Ensure the image does not overflow */
+    height: 40%; /* Set image height to 40% of the card */
+    object-fit: cover; /* Maintain aspect ratio of the image */
+}
+
+.card-body {
+    height: 60%; /* 60% of the card height */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Space out children within card body */
+    padding: 20px; /* Add padding if necessary */
+}
+
+
+ .portrait-image {
+     width: 150px; /* Adjust width to your preference */
+     height: 250px; /* Maintain aspect ratio */
+    object-fit: cover;
+     border-radius: 5px; /* Rounded corners */
+     margin-right: 15px; /* Space between image and text */
+ }
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.filter-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.filter-title {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333; /* Darker text for better readability */
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column; /* Stack radio buttons vertically */
+}
+
+.radio-label {
+    display: flex;
+    align-items: center; /* Aligns text and input */
+    margin-bottom: 8px; /* Spacing between options */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.radio-label input {
+    margin-right: 10px; /* Space between input and text */
+    accent-color: #007bff; /* Custom color for radio buttons */
+}
+
+.radio-text {
+    font-size: 1.1em; /* Slightly larger text */
+    color: #555; /* Gray text for better contrast */
+}

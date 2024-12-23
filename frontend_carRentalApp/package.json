@@ -1,0 +1,78 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/chart.js": "^2.9.41",
+    "@types/geojson": "^7946.0.14",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.31",
+    "@types/react": "^18.2.6",
+    "@types/react-bootstrap": "^0.32.37",
+    "@types/react-bootstrap-typeahead": "^5.1.8",
+    "@types/react-dom": "^18.2.4",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.4",
+    "js-cookie": "^3.0.5",
+    "leaflet": "^1.9.4",
+    "moment-timezone": "^0.5.43",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
+    "react-bootstrap-typeahead": "^6.2.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-datepicker": "^4.11.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-multi-carousel": "^2.8.5",
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0-placeholder-for-preset-env.2",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^6.1.1",
+    "@types/js-cookie": "^3.0.3",
+    "@types/leaflet": "^1.9.12",
+    "@types/react-datepicker": "^4.11.2",
+    "@types/react-leaflet": "^3.0.0",
+    "@types/react-slick": "^0.23.13"
+  }
+}
